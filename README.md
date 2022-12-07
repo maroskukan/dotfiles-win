@@ -1,5 +1,10 @@
 # Dotfiles - Windows
 
+## Requirements
+
+In order to enjoy full terminal experience I highly recommend to install one of the [Nerd Fonts](https://www.nerdfonts.com/). I currently use `JetBrainsMono Nerd Font`.
+
+
 ## Usage
 
 Fork this repository and follow the steps below:
@@ -38,8 +43,3 @@ Pull from origin.
 ```powershell
 config pull origin main
 ```
-
-
-## Requirements
-
-In order to enjoy full terminal experience I highly recommend to install one of the [Nerd Fonts](https://www.nerdfonts.com/). I currently use `JetBrainsMono Nerd Font`.
