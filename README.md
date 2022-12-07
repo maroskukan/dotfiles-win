@@ -30,11 +30,16 @@ config config --local status.showUntrackedFiles no
 Configure the upstream repository, update with your username.
 
 ```powershell
-config remote add origin git@github.com:maroskukan/dotfiles-winls
+config remote add origin git@github.com:maroskukan/dotfiles-win
 ```
 
-Pull from origin
+Pull from origin.
 
 ```powershell
 config pull origin main
 ```
+
+
+## Requirements
+
+In order to enjoy full terminal experience I highly recommend to install one of the [Nerd Fonts](https://www.nerdfonts.com/). I currently use `JetBrainsMono Nerd Font`.
