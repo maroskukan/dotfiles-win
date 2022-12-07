@@ -17,7 +17,7 @@ Create a runtime function.
 ```powershell
 function config()
 {
-    git.exe --git-dir=$HOME\dotfiles --work-tree=$HOME
+    git.exe --git-dir=$HOME\dotfiles --work-tree=$HOME $args
 }
 ```
 
