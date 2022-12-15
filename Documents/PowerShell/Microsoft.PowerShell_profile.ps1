@@ -18,6 +18,10 @@ function config()
     git.exe --git-dir=$HOME\dotfiles --work-tree=$HOME $args
 }
 
+# Workaround for
+# Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
+set VAGRANT_PREFER_SYSTEM_BIN=0
+
 # Workaround for 
 # https://github.com/hashicorp/vagrant/issues/12998
 Function VagrantWrapper()
