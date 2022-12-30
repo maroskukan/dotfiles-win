@@ -34,7 +34,13 @@
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "profiles": 
     {
-        "defaults": {},
+        "defaults": 
+        {
+            "font": 
+            {
+                "face": "Consolas"
+            }
+        },
         "list": 
         [
             {
@@ -42,7 +48,7 @@
                 "colorScheme": "One Half Dark",
                 "font": 
                 {
-                    "face": "JetBrainsMonoMedium NF",
+                    "face": "JetBrainsMono NF",
                     "size": 13
                 },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
@@ -58,7 +64,7 @@
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "font": 
                 {
-                    "face": "JetBrainsMonoMedium NF",
+                    "face": "JetBrainsMono NF",
                     "size": 13
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -72,20 +78,6 @@
                 "name": "Command Prompt"
             },
             {
-                "bellStyle": "window",
-                "colorScheme": "One Half Dark",
-                "font": 
-                {
-                    "face": "JetBrainsMonoMedium Nerd Font",
-                    "size": 13
-                },
-                "guid": "{51aca5fa-6a84-5f0b-8301-5b1196d3c688}",
-                "hidden": false,
-                "icon": "https://www.shareicon.net/data/64x64/2016/06/25/618706_ubuntu_256x256.png",
-                "name": "Ubuntu-work",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": true,
                 "name": "Azure Cloud Shell",
@@ -96,13 +88,12 @@
                 "colorScheme": "One Half Dark",
                 "font": 
                 {
-                    "face": "JetBrainsMonoMedium Nerd Font",
+                    "face": "JetBrainsMono NF",
                     "size": 13
                 },
-                "guid": "{ece9aa19-68f6-5c2f-8d4a-720d0fe69c4a}",
+                "guid": "{75def201-4efb-5e32-93a0-c5647120c025}",
                 "hidden": false,
-                "icon": "https://www.shareicon.net/data/64x64/2015/09/16/101867_archlinux_512x512.png",
-                "name": "Arch",
+                "name": "ubuntu",
                 "source": "Windows.Terminal.Wsl"
             },
             {
@@ -110,13 +101,13 @@
                 "colorScheme": "One Half Dark",
                 "font": 
                 {
-                    "face": "JetBrainsMonoMedium Nerd Font",
+                    "face": "JetBrainsMono NF",
                     "size": 13
                 },
-                "guid": "{75def201-4efb-5e32-93a0-c5647120c025}",
+                "guid": "{ece9aa19-68f6-5c2f-8d4a-720d0fe69c4a}",
                 "hidden": false,
-		"icon": "https://www.shareicon.net/data/64x64/2016/06/19/603883_ubuntu_512x512.png",
-                "name": "ubuntu",
+                "icon": "https://www.shareicon.net/data/64x64/2015/09/16/101867_archlinux_512x512.png",
+                "name": "arch",
                 "source": "Windows.Terminal.Wsl"
             }
         ]
