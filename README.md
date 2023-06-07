@@ -83,3 +83,23 @@ config add README.md
 config commit -m "feat: update workflow for change"
 config push
 ```
+
+## Tips
+
+### Windows PowerShell
+
+When enabling starship prompt in the built-in Windows PowerShell profile, it is necessary to update the execution policy.
+
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+```
+
+Otherwise an error will be displayed everytime you lauch the Windows PowerShell.
+
+```powershell
+ File C:\Users\mk\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1 cannot be loaded because running
+scripts is disabled on this system. For more information, see about_Execution_Policies at
+https:/go.microsoft.com/fwlink/?LinkID=135170
+```
+
+This does not affect the newer PowerShell.
