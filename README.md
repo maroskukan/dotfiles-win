@@ -12,13 +12,19 @@ The PowerShell profile loads the `Terminal-Icons` and `z` modules. Therefore it 
 
 Fork this repository and follow the steps below:
 
+> **Note**: To make your life easier, ensure that the initial branch name is `main` by using `git config --global init.defaultBranch main`. I also recommend to use PowerShell 7 version and above as it supports some additional features like AND and OR operators.
+
 Create a new `dotfiles` directory in your home folder and initialize a bare repository.
 
 ```powershell
-mkdir -p $HOME\dotfiles; git init --bare $HOME\dotfiles
+New-Item -Path $HOME\dotfiles -ItemType Directory -Force; git init --bare $HOME\dotfiles
 ```
 
-> **Note**: To make your life easier, ensure that the initial branch name is `main` by using `git config --global init.defaultBranch main`. I also recommend to use PowerShell 7 version and above as it supports some additional features like AND and OR operators.
+Optionally hide this folder from explorer directory listening
+
+```powershell
+Set-ItemProperty -Path $HOME\dotfiles -Name Attributes -Value ([System.IO.FileAttributes]::Hidden)
+```
 
 Create a runtime function.
 
