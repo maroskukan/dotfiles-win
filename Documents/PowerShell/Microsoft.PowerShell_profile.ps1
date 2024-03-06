@@ -18,6 +18,15 @@ function config()
     git.exe --git-dir=$HOME\dotfiles --work-tree=$HOME $args
 }
 
+# NoSleep - Prevents screen going to sleep mode
+function nos {
+    $wsh = New-Object -ComObject WScript.Shell
+    while (1) {
+        $wsh.SendKeys('+{F15}')
+        Start-Sleep -Seconds 59
+    }
+}
+
 # Workaround for
 # Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
 set VAGRANT_PREFER_SYSTEM_BIN=0
